@@ -1,0 +1,2 @@
+export const CONNECT_COACH = "CONNECT_COACH";
+export const LOGOUT_COACH = "LOGOUT_COACH";
