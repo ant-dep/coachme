@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+  font-family: "Open Sans", arial, sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/****Header*****/
+.header-nav {
+  background-color: #23a339;
+  padding: 30px;
+  margin-bottom: 50px
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0 25px
+}
+
+
+.c-form {
+  width:40%;
+  text-align: center;
+  margin: auto;
+  padding: 25px;
+  border: 3px solid #23a339;
+  border-radius: 15px;
+}
+
+.c-form input {
+  display: block;
+  width:90%;
+  padding: 10px;
+  text-align: center;
+  margin: 15px auto
+}
+
+
+.error {
+  color: red;
+}
+
+.calendar-admin {
+
+}
+.calendar-admin li {
+  list-style: none;
+  border: 2px solid #23a339;
+  width: 40%;
+  margin: 15px auto;
+  padding: 25px
+}
+
+li.not-move {
+  border: 2px solid #a9fcaa;
+}
+li.not-move p {
+  color: grey;
+}
+
+.modal-lesson {
+  width: 40%;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  background-color: white;
+  border: 2px solid black;
+}
+main button:focus {outline:0;}
+
+main button {
+  border: 1px solid #23a339;
+  color: white;
+  background-color: #23a339;
+  padding: 15px;
+  margin: 25px;
+  border-radius: 15px;
+}
+
+main button.redButton {
+  background-color: red;
+  border: 1px solid red;
+  margin-left: 85%;
+}
+
+main a {
+  border: 1px solid #23a339;
+  color: white;
+  background-color: #23a339;
+  padding: 15px;
+  margin: 25px;
+  border-radius: 15px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#profilImg{
+  max-width: 90%;
+}

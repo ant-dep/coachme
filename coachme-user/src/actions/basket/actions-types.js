@@ -1,0 +1,2 @@
+export const MODIFY_BASKET = "MODIFY_BASKET";
+export const CLEAN_BASKET = "CLEAN_BASKET";
